@@ -10,7 +10,7 @@ end
 
 execute 'postgresql-init' do
 	command 'postgresql-setup initdb'
-	action :nothing
+#	action :nothing
 end
 
 service 'postgresql' do
